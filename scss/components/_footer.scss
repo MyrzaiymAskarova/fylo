@@ -1,0 +1,137 @@
+.footer {
+background-color: $color-blueD;
+}
+.footer-icon {
+    max-width: 90px;
+    max-height: 100px;
+    fill: $color-Gblue;
+    margin: 64px 0 27px 78px;
+    
+}
+.footer-icon1 {
+    max-width: 20px;
+    max-height: 20px;
+    fill: $color-Gblue;
+    margin: 0px -66px -2px 77px;
+}
+.footer-icon2 {
+    max-width: 20px;
+    max-height: 20px;
+    fill: $color-Gblue;
+    margin: 17px -70px -5px 79px;
+}
+
+.footer-menu {
+    margin: -55px 0 0 472px;
+}
+.footer-link {
+    color: $color-Gblue;
+    margin-bottom: 10px; 
+    &:hover {
+        filter: invert(19%) sepia(28%) saturate(590%) hue-rotate(180deg) brightness(89%) contrast(84%);
+        cursor: pointer;
+    } 
+}
+
+.footer-menu2 {
+    margin: -118px 0 0 640px;
+}
+
+
+.ico-link1 {
+    margin: 0 0 0 80px;
+    color: $color-Gblue;
+}
+.ico-link2 {
+    margin: 0 0 0 80px;
+    color: $color-Gblue;
+}
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+    margin: -10px 0 38px 398px;
+}
+
+.social-networks-inst {
+    width: 32px;
+    height: 32px;
+    background-image: url('../assets/svg/inst.svg');
+    background-size: 24px 24px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border: 2px solid $color-blueB;
+    border-radius: 50%;
+}
+
+
+.social-networks-inst:hover {
+    filter: invert(19%) sepia(28%) saturate(590%) hue-rotate(180deg) brightness(89%) contrast(84%);
+    cursor: pointer;
+}
+
+.social-networks-fb {
+    width: 32px;
+    height: 32px;
+    background-image: url('/assets/svg/fb.svg');
+    background-size: 24px 24px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border: 2px solid $color-blueB;
+    border-radius: 50%;
+}
+
+.social-networks-fb:hover {
+    filter: invert(19%) sepia(28%) saturate(590%) hue-rotate(180deg) brightness(89%) contrast(84%);
+    cursor: pointer;
+}
+
+.social-networks-tw {
+    width: 32px;
+    height: 32px;
+    background-image: url('/assets/svg/tw.svg');
+    background-size: 24px 24px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border: 2px solid $color-blueB;
+    border-radius: 50%;
+}
+
+.social-networks-tw:hover {
+    filter: invert(19%) sepia(28%) saturate(590%) hue-rotate(180deg) brightness(89%) contrast(84%);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-icon {
+        padding: 40px 0 0 0; 
+        text-align: center;
+        line-height: 0;
+        padding-bottom: 15px;
+    }
+
+    .ico-link1 {
+        padding: 0;
+        padding-bottom: 15px;
+    }
+
+    .social-networks {
+        padding-right: 0;
+    }
+   
+}
+
+
+
+

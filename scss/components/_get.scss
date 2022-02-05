@@ -1,0 +1,181 @@
+.get-container {
+    height: 300px;
+    padding-top: 60px;
+    flex-direction: column;
+    background-color: $color-blueB;
+}
+
+.get-name {
+    font-family: 'Raleway';
+    color: $color-Gblue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    margin: 0;
+    max-width: 530px;
+    margin-bottom: 10px;
+    padding: 0;
+    align-self: start;
+    margin-left: 80px;
+}
+
+.get-text {
+    font-family: 'Raleway';
+    color: $color-Gblue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 470px;
+    align-self: start;
+    margin: 0;
+    margin-left: 80px;
+}
+
+.get-einput {
+    padding: 15px 190px 15px 20px;
+    margin: 39px 18px 0 80px;
+    border: 2px solid $color-grey;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: $color-blueD;
+}
+.get-btn {
+    background-color: $color-Bblue;
+    color: $color-Gblue;
+    padding: 15px 60px 15px 60px;
+    border: 2px solid $color-Bblue;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin: 10px 0 0 83px;
+    &:hover {
+        background-color: $color-blueD;
+        cursor: pointer;
+        }
+}
+
+.get {
+    margin: -192px 0 0 652px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .get-container {
+        background-position: -5px -30px;
+        background-size: auto 620px;
+    }
+   
+    
+    .get-einput {
+        padding: 25px 210px 25px 25px;
+    }
+    
+    
+
+    .get-btn {
+        width: 100%;
+        padding: 8px 30px 8px 30px;
+        border: 2px solid $color-Bblue;
+        border-radius: 5px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 8px;
+        margin: 10px 0 0 83px;
+    }
+    
+    .get-text {
+        color: #ffffff;
+        text-decoration: none;  
+        transition: color 0.5s;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-size: 35px;
+        line-height: 73px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .get-einput {
+        padding-left: 127px;
+    }
+    
+    
+
+    
+}
+@media screen and (max-width: 619px) {
+    
+    .get-container {
+        background-position: -5px -20px;
+        background-size: auto 520px;
+    }
+   
+    
+    .get-einput {
+        padding: 20px 200px 20px 20px;
+    }
+    
+    
+
+    .get-btn {
+        width: 100%;
+        padding: 15px 60px 15px 60px;
+        border: 2px solid $color-Bblue;
+        border-radius: 5px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 34px;
+        margin: 10px 0 0 332px;
+    }
+    
+    .get-text {
+        color: #ffffff;
+        text-decoration: none;  
+        transition: color 0.5s;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-size: 35px;
+        line-height: 73px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    
+}
+@media screen and (max-width: 500px) {
+    .get-container {
+        background-position: -5px -20px;
+        background-size: auto 520px;
+    }
+   
+    
+    .get-einput {
+        padding: 20px 200px 20px 20px;
+    }
+    
+    
+
+    .get-btn {
+        width: 100%;
+        padding: 15px 60px 15px 60px;
+        border: 2px solid $color-Bblue;
+        border-radius: 5px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 34px;
+        margin: 10px 0 0 332px;
+    }
+    
+    .get-text {
+        color: #ffffff;
+        text-decoration: none;  
+        transition: color 0.5s;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-size: 35px;
+        line-height: 73px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
+}
