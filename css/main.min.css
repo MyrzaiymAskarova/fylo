@@ -32,6 +32,77 @@ img {
           flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 10px 0;
+  }
+
+  nav ul li {
+    margin: 10px 20px;
+  }
+
+  .loc-container::before {
+    background-image: url("../images/bg-curve-mobile.svg");
+    height: 80px;
+  }
+
+  .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .flex > section {
+    width: 100%;
+  }
+
+  .flex > section:first-child {
+    margin-right: 0;
+  }
+
+  .flex > section:last-child {
+    margin-left: 0;
+  }
+
+  .Comment-container {
+    width: 100%;
+  }
+
+  .get-container form input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+
+  .get-container form button {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .illustration {
+    margin-top: 30px;
+  }
+
+  .Comment-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  footer ul {
+    padding: 0;
+    width: 100%;
+  }
+}
 .logo {
   background-repeat: no-repeat;
   background-position: right;
@@ -596,32 +667,6 @@ img {
   margin-left: 80px;
 }
 
-@media screen and (max-width: 768px) {
-  .hero-container {
-    background-position: -5px -120px;
-    background-size: auto 620px;
-    padding-top: 76px;
-  }
-
-  .hero-name {
-    font-size: 32px;
-    line-height: 65px;
-    margin-left: 60px;
-    margin-bottom: 20px;
-  }
-
-  .hero-text {
-    margin-left: 60px;
-    max-width: 390px;
-    line-height: 24px;
-  }
-
-  .einput {
-    margin-left: 60px;
-    max-width: 390px;
-    line-height: 24px;
-  }
-}
 .loc-container {
   background-image: url("../assets/svg/illustration-2.svg");
   background-position: right 46px;
@@ -752,26 +797,6 @@ img {
   font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
-  .loc-container {
-    background-position: -5px -120px;
-    background-size: auto 620px;
-    padding-top: 76px;
-  }
-
-  .loc-name {
-    font-size: 32px;
-    line-height: 65px;
-    margin-left: 60px;
-    margin-bottom: 20px;
-  }
-
-  .loc-text {
-    margin-left: 60px;
-    max-width: 390px;
-    line-height: 24px;
-  }
-}
 .get-container {
   height: 300px;
   padding-top: 60px;

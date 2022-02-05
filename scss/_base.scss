@@ -27,4 +27,67 @@ img {
     flex-direction: column;
    }
 
+   @media screen and (max-width: 768px) {
+	body {
+		text-align: center;
+	}
+
+	nav {
+		flex-direction: column;
+		margin: 10px 0;
+	}
+
+	nav ul li {
+		margin: 10px 20px;
+	}
+
+	.loc-container::before {
+		background-image: url('../images/bg-curve-mobile.svg');
+		height: 80px;
+	}
+
+	.flex {
+		flex-direction: column;
+	}
+
+	.flex > section {
+		width: 100%;
+	}
+
+	.flex > section:first-child {
+		margin-right: 0;
+	}
+
+	.flex > section:last-child {
+		margin-left: 0;
+	}
+
+	.Comment-container {
+		width: 100%;
+	}
+
+	.get-container form input {
+		flex: 1;
+	}
+
+	.get-container form button {
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	.illustration {
+		margin-top: 30px;
+	}
+
+	.Comment-container {
+		justify-content: center;
+	}
+
+	footer ul {
+		padding: 0;
+		width: 100%;
+	}
+}
+
+
    
